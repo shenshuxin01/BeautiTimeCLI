@@ -1,14 +1,12 @@
 # BeautiTimeCLI
 Command line beautification time display
 
-以下是一个示例`README.md`文件的内容，用于描述你的`clock-demo.sh`脚本：
+![Demo GIF](https://raw.githubusercontent.com/username/repo/main/assets/demo.gif)
 
-```markdown
-# Clock Demo
+以下是一个示例`README.md`文件的内容，用于描述你的`clock-demo.sh`脚本：
 
 This script displays the current time in various figlet fonts with random colors in the terminal. It continuously updates the time every second and hides the cursor while running. The script also handles `Ctrl+C` to exit gracefully and restore the cursor.
 
-## Prerequisites
 
 Make sure you have the following installed on your system:
 
@@ -16,7 +14,7 @@ Make sure you have the following installed on your system:
 - `ncurses-utils` (for `tput` command)
 - `lolcat` (optional, for colorful output)
 
-### Installation Commands
+## Installation Commands
 
 #### Ubuntu
 ```bash
@@ -46,19 +44,20 @@ sudo pacman -S ncurses  # tput is usually included in the ncurses package
 
 ## Usage
 
-1. Clone the repository or download the 
-
+1. Clone the repository or download the
+```bash
 clock-demo.sh
+```
+script
 
- script.
-2. Make the script executable:
-    ```bash
-    chmod +x clock-demo.sh
-    ```
-3. Run the script:
-    ```bash
-    ./clock-demo.sh
-    ```
+3. Make the script executable:
+```bash
+chmod +x clock-demo.sh
+```
+4. Run the script:
+```bash
+./clock-demo.sh
+```
 
 ## Script Details
 
@@ -71,14 +70,3 @@ The script performs the following steps:
 5. Hides the cursor and sets up a trap to restore the cursor on `Ctrl+C`.
 6. Enters an infinite loop to display the current time in each font with a random color, updating every second.
 
-## Example Output
-
-![Example Output](example-output.png)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-将上述内容保存为`README.md`文件，并根据需要进行修改和补充。
-将上述内容保存为`README.md`文件，并根据需要进行修改和补充。
