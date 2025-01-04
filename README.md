@@ -1,7 +1,7 @@
 # BeautiTimeCLI
 Command line beautification time display
 
-![Demo GIF](https://raw.githubusercontent.com/username/repo/main/assets/demo.gif)
+![Demo GIF](https://raw.githubusercontent.com/shenshuxin01/BeautiTimeCLI/refs/heads/master/termTime.gif)
 
 以下是一个示例`README.md`文件的内容，用于描述你的`clock-demo.sh`脚本：
 
@@ -50,11 +50,11 @@ clock-demo.sh
 ```
 script
 
-3. Make the script executable:
+2. Make the script executable:
 ```bash
 chmod +x clock-demo.sh
 ```
-4. Run the script:
+3. Run the script:
 ```bash
 ./clock-demo.sh
 ```
