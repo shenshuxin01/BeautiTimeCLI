@@ -44,6 +44,10 @@ sudo yum install ncurses  # tput is usually included in the ncurses package
 sudo pacman -S figlet
 sudo pacman -S ncurses  # tput is usually included in the ncurses package
 ```
+#### Windows
+```bash
+npm install -g figlet-cli
+```
 
 ## Usage
 
