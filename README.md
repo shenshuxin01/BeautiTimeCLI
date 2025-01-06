@@ -1,6 +1,9 @@
 # BeautiTimeCLI
 Command line beautification time display
 
+# 脚本支持linux、mac、windows（需要用git bash环境）
+
+
 ![Demo GIF](https://raw.githubusercontent.com/shenshuxin01/BeautiTimeCLI/refs/heads/master/termTime.gif)
 
 以下是一个示例`README.md`文件的内容，用于描述你的`clock-demo.sh`脚本：
